@@ -1,0 +1,189 @@
+@import url('base.css');
+
+header{
+	width: 100%;
+	height: 0.88rem;
+	border-bottom: 0.01rem solid #b2b2b2;
+	position: relative;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	background: #fff;
+}
+header a:first-child{
+	position: absolute;
+	display: block;
+	float: left;
+	width: 0.32rem;
+	height: 0.32rem;
+	top: 0.28rem;
+	left: 0.6rem;
+}
+header a:last-child{
+	position: absolute;
+	display: block;
+	top: 0.28rem;
+	right: 0.6rem;
+	width: 0.32rem;
+	height: 0.32rem;
+}
+.xiangqingtu{
+	width: 100%;
+	height: 7.49rem;
+	background: url('../img/xiangqing (2).png') no-repeat center center;
+	background-size: 100%;
+	margin-top: 0.88rem;
+	border-bottom: 0.02rem solid #f0f0f0;
+}
+.xq_zi{
+	width: 96%;
+	height: 1.79rem;
+	border-bottom: 0.2rem solid #f0f0f0;
+	padding-left: 4%;
+	padding-top: 0.3rem;
+}
+.xq_zi p:first-child{
+	font-size: 0.36rem;
+	color: #333;
+}
+.xq_zi p:nth-child(2){
+	font-size: 0.18rem;
+	color: #575757;
+	margin-top: 0.16rem;
+}
+.xq_zi p:last-child{
+	font-size: 0.28rem;
+	color: #cb262a;
+	margin-top: 0.2rem;
+}
+.jiupin{
+	width: 100%;
+	height: 0.86rem;
+	font-size: 0.3rem;
+	color: #333; 
+	line-height: 0.86rem;
+	padding-left:4%;
+	box-sizing: border-box;
+	border-bottom: 0.02rem solid #f0f0f0;
+}
+.shuxing{
+	width: 100%;
+	height: 6rem;
+	padding-left:4%;
+	box-sizing: border-box;
+	border-bottom: 0.2rem solid #f0f0f0;
+}
+.shuxing .left{
+	display: block;
+	float: left;
+	width: 30%;
+	font-size: 0.26rem;
+	color: #656565;
+}
+.shuxing .right{
+	display: block;
+	width: 70%;
+	font-size: 0.26rem;
+	color: #000;
+	margin-left: 0.8rem;
+}
+.shuxing p{
+	margin-top: 5%;
+}
+.liyou{
+	width: 100%;
+	height: 0.86rem;
+	padding-left:4%;
+	padding-right:4%;
+	box-sizing: border-box;
+	border-bottom: 0.02rem solid #f0f0f0;
+}
+.liyou_title{
+	font-size: 0.3rem;
+	color: #333;
+	line-height: 0.86rem;
+	float: left;
+}
+.liyou_title1{
+	font-size: 0.22rem;
+	color: #575757;
+	float: right;
+	line-height: 0.86rem;
+}
+.liyou1{
+	display: block;
+	width: 100%;
+	height: 10.41rem;
+	border-bottom: 0.2rem solid #f0f0f0;
+}
+.liyou2{
+	width: 100%;
+	height: 9.53rem;
+	padding:5%;
+	box-sizing: border-box;
+}
+.liyou2 p{
+	font-size: 0.26rem;
+	color: #333;
+}
+.liyou2 img{
+	width: 100%;
+	height: 7.56rem;
+	margin-top: 0.25rem;
+}
+.tuihuo{
+	display: block;
+	width: 100%;
+	height: 2.86rem;
+	border-bottom: 0.2rem solid #f0f0f0;
+}
+.tuihuo_zi{
+	width: 100%;
+	height: 1.98rem;
+	padding:5%;
+	box-sizing: border-box;
+}
+.tuihuo_zi p{
+	font-size: 0.28rem;
+	color: #333;
+	line-height: 225%;
+}
+.dibu{
+	width: 100%;
+	height: 0.86rem;
+	position: fixed;
+	bottom: 0;
+	z-index: 99;
+	background: #fff;
+}
+.dibu a:first-child{
+	width: 23%;
+	display: block;
+	float: left;
+	height: 100%;
+	background: url('../img/xiangqing4.png') no-repeat center center;
+	background-size: 100%;
+	border-right: 0.02rem solid #f0f0f0;
+}
+.dibu a:nth-child(2){
+	width: 26.4%;
+	display: block;
+	height: 100%;
+	float: right;
+	font-size: 0.24rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.86rem;
+	background: #ffcc33;
+}
+.dibu a:nth-child(3){
+	width: 28%;
+	display: block;
+	height: 100%;
+	float: right; 
+	font-size: 0.24rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.86rem;
+	border-left: 0.02rem solid #f0f0f0;
+}

@@ -1,0 +1,91 @@
+@import url('base.css');
+
+header{
+	width: 100%;
+	height: 0.88rem;
+	border-bottom: 1px solid #b2b2b2;
+	position: relative;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	background: #fff;
+}
+header a{
+	position: absolute;
+	display: block;
+	float: left;
+	width: 0.32rem;
+	height: 0.32rem;
+	top: 0.28rem;
+	left: 0.6rem;
+}
+header h2{
+	width: 100%;
+	height: 100%;
+	font-size: 0.32rem;
+	text-align: center;
+	line-height: 0.88rem;
+}
+.top{
+	width: 100%;
+	height: 0.87rem;
+	margin-top: 0.88rem;
+	display: flex;
+}
+.top a{
+	display: block;
+	position: relative;
+	width: calc(100% / 3);
+	height: 100%;
+}
+.top a p{
+	text-align: center;
+	line-height: 0.87rem;
+	font-size: 0.28rem;
+	color: #333;
+}
+.top a img{
+	position: absolute;
+	right: 10%;
+	top: 45%;
+	width: 0.12rem;
+	height: 0.08rem;
+}
+.list{
+	width: 100%;
+	height: 3.18rem;
+	border-top: 2px solid #efefef;
+}
+.list a{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.list a img{
+	width: 1.8rem;
+	height: 2.53rem;
+	display: block;
+}
+.list a p{
+	width: 3.9rem;
+	height: 2.53rem;
+}
+.list a p span{
+	display: block;
+	margin-top: 0.05rem;
+	margin-bottom: 0.15rem;
+}
+.list a p span:first-child{
+	font-size: 0.28rem;
+	color: #000;
+}
+.list a p span:last-child{
+	font-size: 0.2rem;
+	color: #cb262a;
+}
+.list a p span:nth-child(2){
+	font-size: 0.18rem;
+	color: #575757;
+}

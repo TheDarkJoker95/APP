@@ -1,0 +1,210 @@
+@import url('base.css');
+
+header{
+	width: 100%;
+	height: 0.88rem;
+	border-bottom: 1px solid #b2b2b2;
+	position: relative;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	background: #fff;
+}
+header a{
+	position: absolute;
+	display: block;
+	float: left;
+	width: 0.32rem;
+	height: 0.32rem;
+	top: 0.28rem;
+	left: 0.6rem;
+}
+header h2{
+	width: 100%;
+	height: 100%;
+	font-size: 0.32rem;
+	text-align: center;
+	line-height: 0.88rem;
+}
+.neirong{
+	margin-top: 0.88rem;
+	width: 100%;
+	height: 2.4rem;
+	padding: 5% 2.8%;
+	box-sizing: border-box;
+	position: relative;
+}
+.duigou{
+	width: 0.44rem;
+	height: 0.44rem;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.jiutu{
+	width: 1.56rem;
+	height: 1.56rem;
+	border: 0.02rem solid #d9d9d9;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	left: 11.2%;
+}
+.wenzi p{
+	font-size: 0.28rem;
+	color: #333;
+}
+.wenzi{
+	width: 55%;
+	height: 1.6rem;
+	position: absolute;
+	right: 2.8%;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	
+}
+.wenzi p:nth-child(2){
+	font-size: 0.24rem;
+	color: #cb262a;
+	margin-top: 6%;
+}
+.jiajian{
+	width: 2.02rem;
+	height: 0.5rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.jiajian a{
+	display: block;
+	width: 0.6rem;
+	height: 0.5rem;
+	float: left;
+}
+.kuang{
+	width: 0.82rem;
+	height: 100%;
+	font-size: 0.22rem;
+	color: #878585;
+	box-sizing: border-box;
+	border: 0.02rem solid #ccc;
+	float: left;
+	line-height: 0.46rem;
+	text-align: center;
+}
+.shan{
+	width: 0.44rem;
+	height: 0.44rem;
+	position: absolute;
+	right: 7%;
+	bottom: 17.5%
+}
+.man{
+	width: 100%;
+	height: 0.88rem;
+	background: #f5d3d3;
+	border-top: 0.2rem solid #f0f0f0;
+	border-bottom: 0.2rem solid #f0f0f0;
+	font-size: 0.23rem;
+	color: #cb262a;
+	line-height: 0.88rem;
+	text-align: center;
+}
+.tuijian{
+	width: 100%;
+	height: 0.86rem;
+	border-bottom: 0.02rem solid #f0f0f0;
+}
+.tuijian p{
+	text-align: center;
+	line-height: 0.86rem;
+	font-size: 0.24rem;
+	color: #333;
+}
+.weini{
+	width: 100%;
+	height: 10.64rem;
+	border-bottom: 0.02rem solid #f0f0f0;
+	margin-bottom: 0.88rem;
+}
+.weini li{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 0.52rem 0.25rem;
+}
+.weini a{
+	display: block;
+}
+.weini img{
+	display: block;
+	width: 0.9rem;
+	height: 2.80rem;
+	margin: 0 auto;
+}
+.weini .top{
+	font-size: 0.26rem;
+	line-height: 0.5rem;
+	color: #333;
+	text-align: center;
+}
+.weini .down{
+	font-size: 0.2rem;
+	color: #cb262a;
+	line-height: 0.4rem;
+	text-align: center;
+}
+.heji{
+	width: 100%;
+	height: 0.86rem;
+	background: #fff;
+	border-top: 0.02rem solid #f0f0f0;
+	position: fixed;
+	bottom: 0;
+	z-index: 98;
+	background: #fff;
+}
+.heji img{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	float: left;
+	margin: 0.23rem 0.2rem;
+}
+.heji p{
+	float: left;
+}
+.heji span{
+	font-size: 0.28rem;
+	line-height: 0.86rem;
+}
+.heji span:first-child{
+	color: #000;
+}
+.heji span:nth-child(2){
+	color: #333;
+	margin-left: 0.5rem;
+}
+.heji span:last-child{
+	color: #cb262a;
+}
+.xiadan{
+	width: 2rem;
+	height: 100%;
+	float: right;
+	background: #ffcc33;
+	text-align: center;
+	line-height: 0.86rem;
+
+}
+.xiadan a{
+	display: block;
+	font-size: 0.28rem;
+	color: #333;
+}
